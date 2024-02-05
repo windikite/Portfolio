@@ -13,7 +13,7 @@ function App() {
           text='This app takes etro.gg links, calls their API for information on the provided gearset and builds a collection on the page. Uses React and Bootstrap, developed using JS.' 
           button='Visit Site' 
           src='./366e9ae9394446c6e6eab51baf8b4c7d1.png' 
-          siteLink='/'
+          siteLink='https://ffxiv-gearset-manager.onrender.com/'
           gitLink='https://github.com/windikite/FFXIV-Raid-Manager'
           />
         <SiteCard 
@@ -23,6 +23,14 @@ function App() {
           src='./1dde13259f2b23baa5eea5dd83dce5c8.png'
           siteLink='https://dnd-3-5-backpack.onrender.com/'
           gitLink='https://github.com/windikite/DnD-3.5-Backpack'
+        />
+        <SiteCard 
+          title='D&D 3.5 Character Creator' 
+          text='An app for creating characters in D&D 3.5 using data from my D&D 3.5 Backpack api. Built with React and Bootstrap, developed using JS.' 
+          button='Visit Site' 
+          src='./724c1ec5601ca501e3b0798f2bda8ca4.png'
+          siteLink='https://dnd-3-5-character-creator.onrender.com/'
+          gitLink='https://github.com/windikite/DnD-3.5-Character-Creator'
         />
       </Container>
     </Container>
