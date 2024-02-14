@@ -3,6 +3,7 @@ import "./portfolio.css";
 import IMG1 from "../../assets/IMG1.png";
 import IMG2 from "../../assets/IMG2.png";
 import IMG3 from "../../assets/IMG3.png";
+import IMG4 from "../../assets/IMG4.png";
 import React from "react";
 
 //Portfolio function
@@ -37,6 +38,16 @@ const Portfolio = () => {
       technologies: "React | Bootstrap | JS",
       siteLink: "https://dnd-3-5-character-creator.onrender.com/",
       gitLink:'https://github.com/windikite/DnD-3.5-Character-Creator'
+    },
+    {
+      id: 4,
+      title: "D&D 3.5 NPC Builder (depreciated)",
+      img: IMG4,
+      description:
+        "A tool from early on when I was learning javascript. The new and improved version I'm working on is the Character Creator, which gathers its data via API call and displays it using React and Bootstrap. Since I did not know these technologies back then, this was an early attempt to just script things out with pure js and work entirely in styles.css.",
+      technologies: "HTML | JS",
+      siteLink: "https://dnd-3-5-character-builder-depreciated.onrender.com/",
+      gitLink:'https://github.com/windikite/dnd-character-builder'
     }
   ];
 
@@ -65,8 +76,6 @@ const Portfolio = () => {
                 >
                   Visit Site
                 </a>
-              </div>
-              <div className="portfolio__item-cta">
                 <a
                   href={pro.gitLink}
                   target="_blank"
