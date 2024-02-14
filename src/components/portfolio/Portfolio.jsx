@@ -76,8 +76,6 @@ const Portfolio = () => {
                 >
                   Visit Site
                 </a>
-              </div>
-              <div className="portfolio__item-cta">
                 <a
                   href={pro.gitLink}
                   target="_blank"
