@@ -4,6 +4,7 @@ import IMG1 from "../../assets/IMG1.png";
 import IMG2 from "../../assets/IMG2.png";
 import IMG3 from "../../assets/IMG3.png";
 import IMG4 from "../../assets/IMG4.png";
+import IMG5 from "../../assets/IMG5.png";
 import React from "react";
 
 //Portfolio function
@@ -48,8 +49,53 @@ const Portfolio = () => {
       technologies: "HTML | JS",
       siteLink: "https://dnd-3-5-character-builder-depreciated.onrender.com/",
       gitLink:'https://github.com/windikite/dnd-character-builder'
+    },
+    {
+      id: 5,
+      title: "Python Webscrapers",
+      img: IMG5,
+      description:
+        "A small collection of webscrapers I'm developing to supply data for my other projects. The ff14 scraper is fully functional and outputs the retrieved data as a JSON object in a separate file. Dnd scraper is currently in progress.",
+      technologies: "Python | Beautiful Soup 4",
+      siteLink: "",
+      gitLink:'https://github.com/windikite/WebScraper'
     }
   ];
+
+  function checkSites(site){
+    let siteButton;
+    let gitButton;
+
+    if(site.siteLink !== ""){
+      siteButton = <a
+        href={site.siteLink}
+        target="_blank"
+        className="btn btn-primary"
+        rel="noreferrer"
+      >
+        Visit Site
+      </a>
+    }
+    
+    if(site.gitLink !== ""){
+      gitButton = <a
+        href={site.gitLink}
+        target="_blank"
+        className="btn btn-primary"
+        rel="noreferrer"
+      >
+        Github Repo
+      </a>
+    }
+
+    return (
+      <div className="portfolio__item-cta">
+        {siteButton}
+        {gitButton}
+      </div>
+    )
+    
+  }
 
   return (
     <section id="portfolio">
@@ -67,24 +113,7 @@ const Portfolio = () => {
               <p>{pro.technologies}</p>
             </div>
             <div className="container portfolio__container">
-              <div className="portfolio__item-cta">
-                <a
-                  href={pro.siteLink}
-                  target="_blank"
-                  className="btn btn-primary"
-                  rel="noreferrer"
-                >
-                  Visit Site
-                </a>
-                <a
-                  href={pro.gitLink}
-                  target="_blank"
-                  className="btn btn-primary"
-                  rel="noreferrer"
-                >
-                  Github Repo
-                </a>
-              </div>
+              {checkSites(pro)}
             </div>
           </article>
         ))}
