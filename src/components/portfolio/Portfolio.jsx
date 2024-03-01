@@ -5,6 +5,7 @@ import IMG2 from "../../assets/IMG2.png";
 import IMG3 from "../../assets/IMG3.png";
 import IMG4 from "../../assets/IMG4.png";
 import IMG5 from "../../assets/IMG5.png";
+import IMG6 from "../../assets/IMG6.png";
 import React from "react";
 
 //Portfolio function
@@ -59,6 +60,16 @@ const Portfolio = () => {
       technologies: "Python | Beautiful Soup 4",
       siteLink: "",
       gitLink:'https://github.com/windikite/WebScraper'
+    },
+    {
+      id: 6,
+      title: "Django and SQLite Commerce Site",
+      img: IMG6,
+      description:
+        "A commerce site that allows for users to log in and create auction listings, as well as watch and comment on them. Data is stored in a SQLite database. ",
+      technologies: "Python | Django | SQLite",
+      siteLink: "",
+      gitLink:'https://github.com/windikite/Commerce-Site'
     }
   ];
 

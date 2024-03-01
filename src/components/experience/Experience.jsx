@@ -66,11 +66,11 @@ const Experience = () => {
               <BsFillPatchCheckFill className="experience__details-icon" />
               <h4>MongoDB</h4>
             </article>
-            {/* <article className="experience__details">
-              <BsFillPatchCheckFill className="experience__details-icon" />
-              <h4>PHP</h4>
-            </article>
             <article className="experience__details">
+              <BsFillPatchCheckFill className="experience__details-icon" />
+              <h4>Beautiful Soup 4</h4>
+            </article>
+            {/* <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
               <h4>Laravel</h4>
             </article>
