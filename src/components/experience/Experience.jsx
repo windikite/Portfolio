@@ -98,11 +98,11 @@ const Experience = () => {
               <BsFillPatchCheckFill className="experience__details-icon" />
               <h4>Django</h4>
             </article>
-            {/* <article className="experience__details">
-              <BsFillPatchCheckFill className="experience__details-icon" />
-              <h4>Flutter</h4>
-            </article>
             <article className="experience__details">
+              <BsFillPatchCheckFill className="experience__details-icon" />
+              <h4>SQLite</h4>
+            </article>
+            {/* <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
               <h4>Dart</h4>
             </article>
