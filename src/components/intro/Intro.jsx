@@ -29,7 +29,7 @@ const Intro = () => {
             </article> */}
           </div>
           <p>
-          Hello! I am a junior developer looking for opportunities to use my skills in Javascript and Python. I have experience building fullstack ecosystems, frontend applications and backend servers for the web in both of those languages and I'm eager to learn even more working for the right team. I bring experience in popular frontend technologies such as React and Django, as well as backend technologies like Node, MongoDB and SQLite. Proficiency in version control utilities such as Git and Github enable me to contribute to online repositories while safely preserving previous versions.  
+          Hello! I am a junior developer looking for opportunities to use my skills in Javascript and Python. I have experience building fullstack ecosystems, frontend applications and backend servers for the web in both of those languages and I'm eager to learn even more working for the right team. I bring experience in popular technologies such as React, Node, Django and Bootstrap, as well as databases like MongoDB and SQLite. Proficiency in version control utilities such as Git and Github enable me to contribute to online repositories while safely preserving previous versions.  
           </p>
           <p>
           The team I'll find my best home with is one where I can employ my skills to make meaningful contributions and be impacted just as much in return. To improve as a developer with my existing skills and learn new ones along the way is my ultimate goal, and I'd be glad for any opportunity to do so. If this sounds like your team I'd love to hear from you, so please feel free to contact me via email or LinkedIn with any questions!
