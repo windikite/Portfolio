@@ -16,7 +16,7 @@ const Portfolio = () => {
       title: "FFXIV Gearset Manager",
       img: IMG1,
       description:
-        "This app takes etro.gg links, calls their API for information on the provided gearset and builds a collection on the page. Uses React and Bootstrap, developed using JS.",
+        "Groups of players in the MMORPG FFXIV normally use spreadsheets to manually track and coordinate the sets of equipment needed among the group. I developed this application to expedite the process, automatically calculating the resources required to acquire those sets for each person. Users can input a link from the popular equipment selector Etro.gg, which will be used via API call to fetch data directly from Etro. The data is checked against an internal dataset to determine the currencies or items needed for the entire set. Finally, relevant information is provided to the user based on the fetched data for the set’s statistics, as well as the ‘shopping list’ my site generates.",
       technologies: "React | Bootstrap | JS",
       siteLink: "https://ffxiv-gearset-manager.onrender.com/",
       gitLink:'https://github.com/windikite/FFXIV-Raid-Manager'
@@ -26,7 +26,7 @@ const Portfolio = () => {
       title: "D&D 3.5 Backpack",
       img: IMG2,
       description:
-        "A CRUD site and API for Dungeons and Dragons 3.5. Uses Express/Node, MongoDB for the database, Bcrypt for authentication and EJS for SSR and templating",
+        "While there are APIs for other editions of Dungeons and Dragons, there was no such thing for the 3.5th edition in any form. I sought to remedy that by building both an API that can handle calls to modify data on my database, as well as a CRUD site for users to interact with. Currently, users can log in, favorite items, easily make requests and be provided with relevant data in return.",
       technologies: "Node |Express | MongoDB | Bcrypt | JS | EJS",
       siteLink: "https://dnd-3-5-backpack.onrender.com/",
       gitLink:'https://github.com/windikite/DnD-3.5-Backpack'
@@ -36,7 +36,7 @@ const Portfolio = () => {
       title: "D&D 3.5 Character Creator",
       img: IMG3,
       description:
-        "An app for creating characters in D&D 3.5 using data from my D&D 3.5 Backpack api. Built with React and Bootstrap, developed using JS.",
+        "For Dungeons and Dragons character creators specific to the 3.5th edition, the options are either very basic and only cover the core rulebook, or extremely expansive but unwieldy to use with no explanation of the available options presented. I developed this application specifically to provide an alternative; one that could easily have its dataset expanded to cover all desired material, but be displayed and interacted with in a modern framework. Users can currently complete the beginning steps of character creation and have their choices be reflected in an information pane above, compiling useful information for their convenience.",
       technologies: "React | Bootstrap | JS",
       siteLink: "https://dnd-3-5-character-creator.onrender.com/",
       gitLink:'https://github.com/windikite/DnD-3.5-Character-Creator'
@@ -53,10 +53,10 @@ const Portfolio = () => {
     },
     {
       id: 5,
-      title: "Python Webscrapers",
+      title: "FFXIV Webscraper",
       img: IMG5,
       description:
-        "A small collection of webscrapers I'm developing to supply data for my other projects. The ff14 scraper is fully functional and outputs the retrieved data as a JSON object in a separate file. Dnd scraper is currently in progress.",
+        "During the development of the FFXIV Gearset Manager, I was faced with a problem; there exists no easy way to generate the dataset I would need to check user gearsets against. I needed a list of every relevant piece of equipment in the game and the required currencies and materials to acquire it, as well as the same for every material that could be bought or traded for. The FFIV official site does have the information on it, but no API. I opted to learn python and BeautifulSoup4 to scrape the information I needed straight off of the web page and repackage into an itemized JSON file for ease of use later. This was a success, and provided both an important piece of the site I was developing as well as an excellent opportunity to learn a new tool.",
       technologies: "Python | Beautiful Soup 4",
       siteLink: "",
       gitLink:'https://github.com/windikite/WebScraper'
