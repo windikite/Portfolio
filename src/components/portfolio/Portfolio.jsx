@@ -120,10 +120,10 @@ const Portfolio = () => {
             </div>
             <div className="portfolio__item-content">
               <h3>{pro.title}</h3>
-              <p>{pro.description}</p>
               <p>{pro.technologies}</p>
+              <p>{pro.description}</p>
             </div>
-            <div className="container portfolio__container">
+            <div className="container links">
               {checkSites(pro)}
             </div>
           </article>
